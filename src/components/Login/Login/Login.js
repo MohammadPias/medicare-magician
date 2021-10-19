@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../../Context/useAuth';
+import './Login.css'
 
 const Login = () => {
 
@@ -34,8 +35,8 @@ const Login = () => {
         })
     }
     return (
-        <Container className="w-25 h-75 mx-auto bg-light mt-5 p-3">
-            <h3 className="mb-3">Login</h3>
+        <Container className="w-25 h-75 mx-auto bg-light p-3 login-custom">
+            <h3 className="mb-3 heading">Login</h3>
             <div className="d-flex justify-content-center align-items-center">
 
                 <Form onSubmit={(event) => handleNewSignin(event, email, password)} className="w-100">

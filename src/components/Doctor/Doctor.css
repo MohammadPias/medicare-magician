@@ -1,0 +1,10 @@
+
+.doctor-card{
+    background-color: #F8F5F2;
+}
+.img-class{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}

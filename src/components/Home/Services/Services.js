@@ -6,8 +6,9 @@ import Service from '../Service/Service';
 const Services = () => {
     const { services } = useServices();
     return (
-        <Container id="services">
-            <h3>Services</h3>
+        <Container id="services" className="mb-4">
+            <h3 className="heading">Services</h3>
+            <div className="line"></div>
             <Row xs={1} md={2} lg={3} xl={4} className="g-4">
                 {
                     services?.map(service => <Service

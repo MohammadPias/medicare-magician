@@ -8,7 +8,7 @@ const Service = ({ service }) => {
     const { name, id, info, fee, rating, img } = service;
     return (
         <Col>
-            <Card style={{ backgroundColor: '#F8F5F2' }}>
+            <Card className="service-card" style={{ backgroundColor: '#F8F5F2' }}>
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
@@ -16,7 +16,7 @@ const Service = ({ service }) => {
                         {info.slice(0, 50)}
                     </Card.Text>
                     <Card.Text>
-                        <h6>Consultling Fee: ${fee}</h6>
+                        <h6>Consulting Fee: ${fee}</h6>
                     </Card.Text>
                     <Card.Text>
                         Rating: <Rating

@@ -22,8 +22,8 @@ const Signup = () => {
         setEmail(e.target.value)
     };
     return (
-        <Container className="w-25 h-75 mx-auto bg-light mt-5 p-3">
-            <h3 className="mb-3">Signup</h3>
+        <Container className="w-25 h-75 mx-auto bg-light p-3 login-custom">
+            <h3 className="mb-3 heading">Signup</h3>
             <div className="d-flex justify-content-center align-items-center">
                 <Form onSubmit={(event)=>handleSignup(event, name, email, password)} className="w-100">
                     <Form.Group as={Row} className="mb-3" controlId="formPlaintextName">

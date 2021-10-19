@@ -5,3 +5,7 @@
     width: 100%;
     z-index: 1050;
   }
+  .custom-nav a:hover{
+    background-color: white;
+    color: #232323;
+  }

@@ -11,11 +11,12 @@ import ServiceDetail from './components/Home/ServiceDetail/ServiceDetail';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import NotFound from '../src/components/Home/NotFound/NotFound'
 import Footer from './components/Shared/Footer/Footer';
+import Doctors from './components/Doctors/Doctors';
 
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <AuthProvider>
         <Router>
           <Header></Header>
@@ -38,6 +39,9 @@ function App() {
             <Route path="/signup">
               <Signup></Signup>
             </Route>
+            <PrivateRoute path="/doctors">
+              <Doctors></Doctors>
+            </PrivateRoute>
             <Route exact path="*">
               <NotFound></NotFound>
             </Route>
