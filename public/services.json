@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Child Care Assistance",
+        "id": 1,
+        "info": "They care for children from birth to young adulthood. Some pediatricians specialize in pre-teens and teens, child abuse, or children's developmental issues.",
+        "time": "4:30 pm",
+        "fee": 80,
+        "rating": 4.5,
+        "img": "https://i.ibb.co/SRvgDnd/children.png"
+    },
+    {
+        "name": "Dental Services",
+        "id": 2,
+        "info": "Dental Sciences Years ago, a physician who suspected heart disease in you probably did not refer you to a gum specialist. Times have changed. The past years have seen inc...",
+        "time": "5:00 pm",
+        "fee": 90,
+        "rating": 4,
+        "img": "https://i.ibb.co/1QycYhK/dental.png"
+    },
+    {
+        "name": "Urgent Care",
+        "id": 3,
+        "info": "These doctors make life-or-death decisions for sick and injured people, usually in an emergency room. Their job is to save lives and to avoid or lower the chances of disability.",
+        "time": "3:00 pm",
+        "fee": 75,
+        "rating": 4.4,
+        "img": "https://i.ibb.co/Kj12b5Y/emergency.png"
+    },
+    {
+        "name": "Hearing and Vision",
+        "id": 4,
+        "info": "Vision, hearing and speech are an important part of a child's life. When an infant is born, his or her eyesight is immature. The infant later develops the ability to focus. Hearing appears early in fetal development and is necessary for proper progression of speech and language.",
+        "time": "3:20 pm",
+        "fee": 65,
+        "rating": 4.2,
+        "img": "https://i.ibb.co/PD8kngr/hearing-and-vision.png"
+    },
+    {
+        "name": "Cardiology",
+        "id": 5,
+        "info": "Cardiology - Adult Heart diseases such as heart attack, congestive heart failure, congenital heart disease, and coronary heart disease are the leading cause of death for...",
+        "time": "3:15 pm",
+        "fee": 70,
+        "rating": 5,
+        "img": "https://i.ibb.co/D50mF5x/cardiology.png"
+    },
+    {
+        "name": "Oncology",
+        "id": 6,
+        "info": "Medical Oncology The Department of Medical Oncology at Medicare Magician's group of hospitals offer cancer treatment provided by a team of qualified medical oncologists ex...",
+        "time": "4:30 pm",
+        "fee": 90,
+        "rating": 5,
+        "img": "https://i.ibb.co/Bc8ZGsL/oncology.png"
+    },
+    {
+        "name": "Orthopedic",
+        "id": 7,
+        "info": "Orthopaedics The Department of Paediatric Orthopedics has a very well trained and experienced team of Paediatric Orthopaedic surgeons which provide state of the art comp...",
+        "time": "4:30 pm",
+        "fee": 70,
+        "rating": 5,
+        "img": "https://i.ibb.co/5hmXMMB/orthopedic.png"
+    },
+    {
+        "name": "Radiology",
+        "id": 8,
+        "info": "Radiology At Medicare Magician, we offer a wide variety of diagnostic radiology examinations and interventional procedures with state-of-the-art technology. Our team of rad...",
+        "time": "5:30 pm",
+        "fee": 75,
+        "rating": 5,
+        "img": "https://i.ibb.co/YTwWr3B/radionlogy.png"
+    },
+    {
+        "name": "Psychology",
+        "id": 9,
+        "info": "Psychiatry & Clinical Psychology Medicare Magician offers comprehensive psychiatric assessments for all age groups, management of common and enduring mental illnesses w...",
+        "time": "5:20 pm",
+        "fee": 75,
+        "rating": 5,
+        "img": "https://i.ibb.co/CtVGdvh/psycology.png"
+    },
+    {
+        "name": "Neurology",
+        "id": 10,
+        "info": "Neurology Overview Neurology is the branch of medicine that deals with the study and treatment of nervous system disorders. The nervous system itself is composed of the c...",
+        "time": "8:00 am",
+        "fee": 60,
+        "rating": 4,
+        "img": "https://i.ibb.co/YcYxHXJ/neurology.png"
+    },
+    {
+        "name": "Surgery",
+        "id": 11,
+        "info": "General Surgery General surgery department at Medicare Magician comprises of highly experienced senior surgeons and competent staff. Our doctors help in making the surgical...",
+        "time": "8:20 am",
+        "fee": 85,
+        "rating": 4.8,
+        "img": "https://i.ibb.co/LzYq1vc/surgery.png"
+    },
+    {
+        "name": "Gynaecology",
+        "id": 12,
+        "info": "Gynaecology Oncology Medicare Magician Cancer Institutes offers a specialist surgical service for the prevention, diagnosis, staging, treatment & care of women with gy...",
+        "time": "8:30 am",
+        "fee": 90,
+        "rating": 4,
+        "img": "https://i.ibb.co/2KQ3cmb/gynecology.png"
+    }
+]
