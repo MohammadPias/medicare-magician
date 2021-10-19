@@ -16,7 +16,7 @@ const DoctorHome = () => {
                         <img src={doctor} alt="" />
                     </div>
                 </Link>
-                <Link to="/doctors">
+                <Link to="/medicineShop">
                     <h3 className="heading">Medicine Shop</h3>
                     <div className="col img-custom">
                         <img src={medicine} alt="" />

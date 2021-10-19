@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 const useServices = () => {
     const [services, setServices] = useState([]);
     const [doctors, setDoctors] = useState([]);
+    const [medicines, setMedicines] = useState([]);
 
     useEffect(()=>{
         fetch('/services.json')
@@ -15,11 +16,19 @@ const useServices = () => {
         fetch('/doctors.json')
         .then(res => res.json())
         .then(data => setDoctors(data))
+    },[]);
+
+    useEffect(()=>{
+        fetch('/medicines.json')
+        .then(res => res.json())
+        .then(data => setMedicines(data))
     },[])
+
     return {
         services,
-        doctors
-    }
+        doctors,
+        medicines
+    };
     
 }
 export default useServices;

@@ -12,6 +12,7 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import NotFound from '../src/components/Home/NotFound/NotFound'
 import Footer from './components/Shared/Footer/Footer';
 import Doctors from './components/Doctors/Doctors';
+import MedicineShop from './components/MedicineShop/MedicineShop';
 
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
             </Route>
             <PrivateRoute path="/doctors">
               <Doctors></Doctors>
+            </PrivateRoute>
+            <PrivateRoute path="/medicineShop">
+              <MedicineShop></MedicineShop>
             </PrivateRoute>
             <Route exact path="*">
               <NotFound></NotFound>
